@@ -1,0 +1,38 @@
+.container1{
+    margin: 0px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    background: #fff;
+}
+.container1 div{
+    border-radius: 10px;
+    color: white;
+}
+.container1 div i{
+    font-size: 60px;
+}
+.container1 .div1{
+    background:#1a1a6d;
+    height: 300px;
+    width: 450px;
+    padding: 20px;
+}
+.container1 .div2{
+    background: #1F45FC;
+    height: 300px;
+    width: 450px;
+    padding: 20px;
+}
+.container1 .div3{
+    background: #0000FF;
+    height: 300px;
+    width: 450px;
+    padding: 20px;
+}
+@media screen and (max-width:600px) {
+    .container1{
+        display: block;
+    }
+}

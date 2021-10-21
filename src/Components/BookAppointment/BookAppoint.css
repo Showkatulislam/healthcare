@@ -1,0 +1,30 @@
+.apo-container{
+    margin: 10% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.apo-container .form-handle{
+    background: blue;
+    padding: 20px;
+    border-radius: 5px;
+}
+.apo-container .form-handle input{
+    height: 30px;
+    display: block;
+    width: 100%;
+    margin: 10px 4px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.apo-container .form-handle input:last-child{
+    background: orange;
+}
+@media screen and (max-width:600px) {
+    .apo-container{
+        display: block;
+    }
+}

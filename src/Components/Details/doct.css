@@ -1,0 +1,29 @@
+.d-containier{
+    margin: 5% 10%;
+    display: flex;
+   
+
+}
+.d-left div{
+    background: #f3f3f3;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.d-left .button{
+    padding: 3px 100px;
+    background: orange;
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+}
+.d-left img{
+    border-radius: 20px;
+}
+.d-right{
+    width: 600px;
+}
+.Rowdata{
+    display:flex;
+    justify-content: space-between;
+}
